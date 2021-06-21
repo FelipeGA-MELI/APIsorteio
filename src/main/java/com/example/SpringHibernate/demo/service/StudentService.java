@@ -4,5 +4,7 @@ import com.example.SpringHibernate.demo.model.Student;
 import java.util.List;
 
 public interface StudentService {
-    List<Student> getAlunos();
+    List<Student> getStudents();
+
+    void addStudent(Student student);
 }
